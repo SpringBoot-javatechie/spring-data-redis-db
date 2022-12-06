@@ -11,6 +11,8 @@ import java.util.List;
 public class CustomerDAO {
 
     public static final String HASH_KEY = "CustomersInfo";
+
+
     @Autowired
     private RedisTemplate template;
 
